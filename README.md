@@ -30,7 +30,19 @@ Each completed lab should be saved in its native desktop-project format so class
 
 The supplied PDF is a lab manual, not a dataset bundle. It describes the datasets and exercises, but the actual CSV/XLS/XLSX source files are not attached to the manual PDF. To make the packaged workbooks reproducible and ensure classmates see the same results, add the **exact classroom datasets** used by your lab to the matching program folders before treating a program as complete. Do not silently substitute similarly named public datasets.
 
-## Planned folder layout
+## Folder layout
+
+```text
+Data/
+  Video-Games/
+  Tableau-Joins/
+  Revenue-Sales/
+  GDP/
+  HR/
+  Amazon-Prime/
+```
+
+## Planned program layout
 
 ```text
 Tableau/
@@ -63,4 +75,4 @@ Each program folder should contain:
 
 ## Completion status
 
-This repository is being prepared from the supplied BAIL504 manual. No native Tableau or Power BI final project is marked complete until it has been built in the relevant desktop application with the required source dataset and its output has been checked.
+The repository currently contains datasets and their provenance notes. Native `.twbx` and `.pbix` workbooks and checked output screenshots have **not** yet been created. They must be authored and verified in Tableau Desktop and Power BI Desktop; this repository does not claim that a CSV or README is a completed native report.
